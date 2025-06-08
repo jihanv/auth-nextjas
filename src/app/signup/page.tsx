@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/navigation";
-import { axios } from "axios";
+import { Axios } from "axios";
 
 export default function SignupPage() {
   const [user, setUser] = React.useState({
@@ -50,7 +50,7 @@ export default function SignupPage() {
       >
         Signup here
       </button>
-      <Link href="/login">Visit login</Link>
+      <Link href="/login">Visit login page</Link>
     </div>
   );
 }
